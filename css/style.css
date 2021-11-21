@@ -1,3 +1,44 @@
+/*font*/
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'zen_tokyo_zooregular';
+    src: url('../fonts/zentokyozoo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/zentokyozoo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nimbus_monoregular';
+    src: url('../fonts/nimbusmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html {
 	position: relative;
 }
@@ -79,7 +120,16 @@ section {
 }
 
 .portfolio button {
-	margin-left: 35px;
+	margin-left: 36px;
+}
+
+.embed-responsive-item {
+	padding-bottom: 50px;
+}
+
+.krispi-3 h2 {
+	font-family: 'bebas_neueregular';
+	letter-spacing: 5px;
 }
 
 footer {
@@ -99,6 +149,10 @@ footer p {
 @media screen and (max-width: 768px) {
 	section .img-responsive {
 	margin: 0 auto;
+	}
+
+	.portfolio button {
+		margin-left: 330px;
 	}
 }
 
