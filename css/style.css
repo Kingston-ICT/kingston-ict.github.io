@@ -50,6 +50,10 @@ section {
 	transform: translate(0,0);
 }
 
+.portfolio .row {
+	padding-bottom: 50px;
+}
+
 .portfolio {
 	background-color: #eee;
 }
@@ -67,6 +71,15 @@ section {
 
 .portfolio img {
 	padding: 10px;
+}
+
+.event img {
+	width: 20%;
+	padding-bottom: 10px;
+}
+
+.portfolio button {
+	margin-left: 35px;
 }
 
 footer {
@@ -92,10 +105,19 @@ footer p {
 /* Mobile*/
 @media screen and (max-width: 576px) {
 	section .img-responsive {
-	margin: 0 auto;
+		margin: 0 auto;
 	}
 
 	.jumbotron {
-
+		position: 0 -50px;
 	}
+
+	.portfolio button {
+		margin-left: 230px;
+	}
+
+	.event img {
+		width: 30%;
+	}
+
 }
